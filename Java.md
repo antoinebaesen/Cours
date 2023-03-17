@@ -1,4 +1,4 @@
-JAVA TIPS
+JAVA
 =========
 
 Mise en forme : 
@@ -171,6 +171,33 @@ un tableau est une structure de données qui permet de stocker des éléments de
 
     tableau[tableau.Length - 1] = 3; // pour la dernière case
     ```
+
+### Tableau à 2 dimensions
+
+```java
+    /*
+        __type de l'élément__[][] __nom du tableau__ = new __type de l'élément__[__taille du tableau__][__taille du tableau__];
+    */
+
+    int[][] tableau = new int[10][10];
+```
+
+    Les données sont stockées dans le tableau comme ça : [numéro de la ligne][numéro de la colonne]
+
+```java
+    int[][] tableau = new int[3][3];
+    tableau[1][0] = 1;
+    tableau[1][1] = 2;
+    tableau[1][2] = 3;
+```
+
+tableau :
+
+|0|0|0|
+|-|-|-|
+|1|2|3|
+|0|0|0|
+
 
 ## 6.2 LISTE
 une liste est une structure de données qui permet de stocker des éléments de même type (comme un tableau) mais qui peut être redimensionné dynamiquement. Donc tu peux ajouter des éléments à la liste sans avoir à redéfinir la taille du tableau.
