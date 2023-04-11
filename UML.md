@@ -38,13 +38,30 @@ On représente les méthodes selon ce format :
 
 `[visibilité] [nom]([paramètres]) : [type de retour]`
 
-exemple :
+Exemple de diagramme de classe:
 
 ```plantuml
+@startuml classDiagramExemple
+skinparam classAttributeIconSize 0
 
+abstract class Dragon {
+    - int power
+    # int getPower()
+    # void setPower(int power)
+}
 
+class Dragonite {
+    - int pokemonNumber
+    + int getPokemonNumber()
+    + Dragonite(int power, int pokemonNumber)
+}
 
+Dragon <|-- Dragonite
+
+note left of Dragonite
+    This is a note
+    on two lines
+end note
+
+@enduml
 ```
-
-
-### Relations
