@@ -22,7 +22,7 @@ Le markdown est un langage de balisage léger qui permet de formater du texte. I
     - [Exemples](#exemples)
   - [Web](#web)
   - [Lien vers d'autres pages](#lien-vers-dautres-pages)
-  - [Sommaire](#sommaire-1)
+  - [Générer un Sommaire](#générer-un-sommaire)
 
 ## Syntaxe
 
@@ -181,37 +181,11 @@ Ligne 2
 
     Exemple : [Markdown](Dossier/Markdown.md#markdown)
 
-## Sommaire
+## Générer un Sommaire
 
     Pour générer le sommaire, il suffit de mettre un lien vers une partie particulière d'un fichier markdown en ajoutant un `#` suivi du nom de la partie.
 
     Exemple : [Sommaire](#sommaire)
 
     Pour générer le sommaire automatiquement, il faut ajouter le code suivant en début de fichier markdown.
-
-    ```markdown
-<!-- TOC -->
-
-- [Markdown](#markdown)
-  - [Sommaire](#sommaire)
-  - [Syntaxe](#syntaxe)
-    - [Titres](#titres)
-    - [Listes](#listes)
-    - [Gras](#gras)
-    - [Italique](#italique)
-    - [Lien](#lien)
-    - [Images](#images)
-    - [Code](#code)
-    - [Bloc de code](#bloc-de-code)
-    - [Citation](#citation)
-    - [Tableau](#tableau)
-    - [Ligne horizontale](#ligne-horizontale)
-    - [Saut de ligne](#saut-de-ligne)
-    - [Exemples](#exemples)
-  - [Web](#web)
-  - [Lien vers d'autres pages](#lien-vers-dautres-pages)
-  - [Sommaire](#sommaire-1)
-
-<!-- /TOC -->
-    ```
 

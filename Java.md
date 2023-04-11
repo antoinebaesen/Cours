@@ -12,7 +12,7 @@ Mise en forme :
 * [1) IMPORTS](#1-imports)
 * [2) CLASSES](#2-classes)
 * [3) METHODES](#3-methodes)
-* [4) VARIABLES](#4-variables) ligne 50
+* [4) VARIABLES](#4-variables)
     [4.1 Portée des variables](#41-portee-des-variables)
 * [5) BOUCLES](#5-boucles)
     [5.1 For :](#51-for)
