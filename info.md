@@ -183,3 +183,39 @@ Terrain : [Humain] 0 = plain, 1 = villes ; [Elfes] 2 = forêt, 3 = foret magique
 | Seigneur de l'ombre       | Monstre           | 6 | Magicien  | 98 |  7  |  3  |  5  | Magie + 2. Start : donne +8/8 à un allié
 | Paladin noir              | Monstre           | 7 | Guerrier  | 97 |  8  |  1  |  8  | Bouclier. Quand quelqu'un meurt : donne (4/4) à un allié
 | Archidémon                | Monstre           | 7 | Volant    | 98 |  6  |  5  |  7  | Attack : hit atk tous les ennemis
+
+## Stuffs
+
+Categories : 1 = infanterie, 2 = guerrier, 3 = lancier, 4 = cavalier, 5 = archer, 6 = volant, 7 = magique, 8 = colosse
+
+| id | rid | Nom                      | Rang | Espece | Category    | Atk | Def | Vit | Mag | Effet |
+|----|-----|--------------------------|:----:|:------:|:-----------:|:---:|:---:|:---:|:---:|-------|
+| 101| 104 | Hache rouillée           | 1    | -1     | 2.Guerrier  | 3   | 0   | 0   | 0   | -     |
+| 102| 105 | Hache de fer             | 2    | 2      | -1          | 2   | 2   | 0   | 0   | -     |
+| 103| 106 | Hache de guerre          | 3    | -1     | 2.Guerrier  | 4   | 2   | 0   | 0   | -     |
+| 104| 107 | Hache de berzerker       | 4    | 2      | 2.Guerrier  | 5   | 3   | 0   | 0   | -     |
+| 105| 108 | Hache lourde             | 5    | -1     | 2.Guerrier  | 5   | 3   | -1  | 0   | -     |
+| 106| 109 | Hache longue             | 2    | -1     | 2.Guerrier  | 3   | 1   | 0   | 0   | -     |
+| 107| 110 | Hache ?                  | 6    | -1     | 2.Guerrier  | 4   | 6   | 0   | 0   | -     |
+| 108| 111 | Hache ?                  | 6    | 2      | -1          | 6   | 4   | 0   | 0   | ?
+| 109| 112 | Faux                     | 4    | 4      | -1          | 4   | 1   | 0   | 0   | Kill : gagne 1 atk |
+| 110| 113 | Arc                      | 1    | -1     | 5.Archer    | 2   | 1   | 0   | 0   | -     |
+| 111| 114 | Arc long                 | 4    | -1     | 5.Archer    | 4   | 1   | 0   | 1   | -     |
+| 112| 115 | Arc de chasse            | 3    | 3      | -1          | 3   | 0   | 0   | 1   | -     |
+| 113| 116 | Arbalete                 | 2    | -1     | 5.Archer    | 2   | 3   | 0   | 0   | -     |
+| 114| 117 | Arbalete à répétition    | 5    | -1     | 5.Archer    | 6   | 3   | 0   | 0   | -     |
+| 115| 118 | Arbalete de chasse       | 4    | 3      | -1          | 3   | 3   | 0   | 1   | -     |
+|    | 119 | Marteau                  | 2    | -1     | 8.colosse   | 1   | 4   | 0   | 0   | -     |
+|    | 120 | Marteau de guerre        | 3    | -1     | 8.colosse   | 2   | 2   | 0   | 0   | Bouclier
+|    | 121 | Marteau champion         | 5    | -1     | 8.colosse   | 2   | 5   | 0   | 0   | ?
+|    | 122 | Massue                   | 1    | -1     | -1          | 1   | 2   | 0   | 0   | -     |
+|    | 123 | Massue d'armes
+|    | 124 | Massue de guerre
+|    | 125 | Masse colossale         | 5    | 8      | 8.Colosse   | 3   | 8   | 0   | 0   | -     |
+|    | 126 | Couteau
+|    | 131 | Carquois
+|    | 132 | Bouclier
+|    | 138 | Lance
+|    | 140 | Baton
+|    | 141 | Epée
+|    | 147 | Lance bois
