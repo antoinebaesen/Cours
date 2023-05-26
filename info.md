@@ -219,3 +219,37 @@ Categories : 1 = infanterie, 2 = guerrier, 3 = lancier, 4 = cavalier, 5 = archer
 |    | 140 | Baton
 |    | 141 | Epée
 |    | 147 | Lance bois
+
+# Tresors
+
+| id | Nom                      | rareté | Effet                        | Condition |
+|----|--------------------------|:------:|------------------------------|-----------|
+| 1  | Coeur de vie             | EPIQUE | +1 pv                        | /         |
+| 6  | Bouclier de Krag         | COMMUN | +1 def                       | /         |
+| 8  | Coeur de dragon          | RARE   | +1/1                         | /         |
+| 9  | Âme de dragon            | EPIQUE | +2/2                         | /         |
+| 10 | Coeur de dieu            | LEGEND | +3/3                         | /         |
+| 12 | Montagnes d'or           | RARE   | +20 or ce tour               | /         |
+| 13 | Coffres enchantés        | RARE   | or +2 par tours              | /         |
+| 14 | Coeur de magma           | EPIQUE | Materiaux +1 par tours       | /         |
+| 15 | Sceptre de Magouz        | COMMUN | random dammage : _magie_ * 3 | TOUS      |
+| 16 | Sceptre de Balthazarak   | LEGEND | début du combat : +_3/3_ à un allié | /  |
+| |                             | RARE   | Magie +2                     | /         |
+| |                             | COMMUN | Magie +1                     | /         |
+| |                             | RARE   | Level up le chateau          | /         |
+| | | | | | |
+| 0  | Tranchebrume             | RARE   | Quand vous jouez un allié : +1 pv aux alliés | Infanterie |
+| 1  | Hache de Maktaghor       | COMMUN | +2 atk                       | Guerrier  |
+| 2  | Lance de Krag            | COMMUN | +1/1                         | Lancier   |
+| 3  | Lance de joute           | COMMUN | +2 vitesse                   | cavalier  | 
+| 4  | Arc de Medvef            | EPIQUE | +1 magie                     | Archer    |
+| 5  | Ailes d'argent           | RARE   | +1 vitesse et +3 atk         | Volant    |
+| 6  | Sceptre de Magus         | EPIQUE | +2/2                         | Magicien  |
+| 7  | Roche runique            | RARE   | Quand un colosse est détruit, il gagne +1/1 | Colosse   |
+| 8  | Callibur                 | LEGEND | Début du combat : donne bouclier | Infanterie |
+| 9  | Hache de seigneur de guerre | EPIQUE | ? | Guerrier |
+| 10 | Lance de seigneur de guerre | EPIQUE | ? | Lancier |
+| 11 | Arc céleste              | LEGEND | ? | Donne portée | Archer |
+| 12 | Ailes de dragon          | EPIQUE | Début : fais 2 dégâts aux ennemis par volants | Volant |
+| 13 | Sceptre de l'archimage   | LEGEND | ? | Magicien |
+| 14 | Coeur de magie           | LEGEND | ? | Colosse |
